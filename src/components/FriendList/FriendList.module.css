@@ -1,11 +1,8 @@
 .friendListContainer {
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
-=======
   flex-wrap: nowrap;
   padding: 10px;
->>>>>>> 06d741a90db3fabffc82b3380c44736956e566b4
 }
 
 .friendItem {
@@ -18,19 +15,12 @@
   align-items: center;
   text-align: center;
   width: 120px; 
-<<<<<<< HEAD
-=======
   flex-shrink: 0; 
->>>>>>> 06d741a90db3fabffc82b3380c44736956e566b4
 }
 
 .avatar {
   margin-bottom: 10px;
-<<<<<<< HEAD
-  border-radius: 50%;
-=======
   
->>>>>>> 06d741a90db3fabffc82b3380c44736956e566b4
 }
 
 .status {
