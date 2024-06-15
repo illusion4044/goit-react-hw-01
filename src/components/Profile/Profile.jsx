@@ -5,7 +5,7 @@ console.log(css)
 export default function  Profile(props) {
     console.log(props);
     return (
-        <div className="profile">
+        <div className={css.profile}>
          <div>
          <img
          src="https://cdn-icons-png.flaticon.com/512/2922/2922506.png"
