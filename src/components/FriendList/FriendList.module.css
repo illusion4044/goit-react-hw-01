@@ -1,21 +1,41 @@
+.friendListContainer {
+  display: flex;
+  justify-content: center;
+<<<<<<< HEAD
+=======
+  flex-wrap: nowrap;
+  padding: 10px;
+>>>>>>> 06d741a90db3fabffc82b3380c44736956e566b4
+}
+
 .friendItem {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
-  margin: 10px 0;
+  margin: 10px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 10px;
+  text-align: center;
+  width: 120px; 
+<<<<<<< HEAD
+=======
+  flex-shrink: 0; 
+>>>>>>> 06d741a90db3fabffc82b3380c44736956e566b4
 }
 
-.friendItem img {
-  margin-right: 10px;
+.avatar {
+  margin-bottom: 10px;
+<<<<<<< HEAD
   border-radius: 50%;
+=======
+  
+>>>>>>> 06d741a90db3fabffc82b3380c44736956e566b4
 }
 
 .status {
   font-weight: bold;
-  margin-left: 10px;
+  margin-top: 5px;
 }
 
 .statusOnline {
