@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
-  overflow-x: auto; /* Allows horizontal scrolling if needed */
   padding: 10px;
 }
 
