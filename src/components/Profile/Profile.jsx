@@ -1,4 +1,6 @@
-import "./Profile.css"
+import css from "./Profile.module.css"
+
+console.log(css)
 
 export default function  Profile(props) {
     console.log(props);
