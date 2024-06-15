@@ -1,21 +1,32 @@
+.friendListContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  overflow-x: auto; /* Allows horizontal scrolling if needed */
+  padding: 10px;
+}
+
 .friendItem {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
-  margin: 10px 0;
+  margin: 10px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 10px;
+  text-align: center;
+  width: 120px; 
+  flex-shrink: 0; 
 }
 
-.friendItem img {
-  margin-right: 10px;
-  border-radius: 50%;
+.avatar {
+  margin-bottom: 10px;
+  
 }
 
 .status {
   font-weight: bold;
-  margin-left: 10px;
+  margin-top: 5px;
 }
 
 .statusOnline {
